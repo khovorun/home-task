@@ -37,7 +37,7 @@ export default function handlerStartBtn(
   if (isFavourite === true) {
     document.querySelector('.add-favourite-btn').innerHTML = `Remove from
           <svg class="heart-icon">
-            <use href="/js_university_projectNew/icons.svg#icon-heart"></use>
+            <use href="/home-task/icons.svg#icon-heart"></use>
           </svg>`;
   }
 }
